@@ -1,0 +1,31 @@
+.worldpress{
+    background-color: #1a73e8;
+    /* width: 100%;
+    height: 64px; */
+    border: 1px solid yellow;
+}
+.header-1{
+    
+    display: flex;
+}
+.header-2{
+    display: flex;
+}
+strong{
+    ont-weight: bold;
+    color: white;
+}
+a{
+    color: white;
+}
+.header-main{
+    display: flex;
+    /* background-color: aqua; */
+    max-width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 64px;
+}
