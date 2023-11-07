@@ -1,175 +1,231 @@
 .header-back {
-    background: #333;
-    border-bottom: 1px solid #444;
-    height: 60px;
-    width: 100%;
-    /* max-height: 60px; */
-    /* position: relative;
+  background: #333;
+  border-bottom: 1px solid #444;
+  height: 60px;
+  width: 100%;
+  /* max-height: 60px; */
+  /* position: relative;
     z-index: 22; */
-  }
-  .main-header {
-    display: flex;
-    justify-content: space-between;
-  }
-  .image-colorlib {
-    height: 30px;
-    width: auto;
-    margin-top: 15px;
-  }
-  .colorlib-div {
-    color: #9b9b9b;
-    font-size: 19px;
-    font-weight: 700;
-    line-height: 50px;
-    padding: 0 20px;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-  .main-header {
-  }
-  .header-1 {
-    display: flex;
-    gap: 10px;
-  }
-  .plus-essence {
-    color: #9b9b9b;
-    display: block;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 50px;
-    max-height: 60px;
-    padding: 5px 40px 5px 40px;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-  .plus {
-    content: "+";
-    left: 20px;
-    position: absolute;
-    top: 4px;
-    color: #9b9b9b;
-  }
-  .header-2 {
-    display: flex;
-    /* border-left: 1px solid #444;
+}
+.main-header {
+  display: flex;
+  justify-content: space-between;
+}
+.image-colorlib {
+  height: 30px;
+  width: auto;
+  margin-top: 15px;
+}
+.colorlib-div {
+  color: #9b9b9b;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 50px;
+  padding: 0 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.main-header {
+}
+.header-1 {
+  display: flex;
+  gap: 10px;
+}
+.plus-essence {
+  color: #9b9b9b;
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 50px;
+  max-height: 60px;
+  padding: 5px 40px 5px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.plus {
+  content: "+";
+  left: 20px;
+  position: absolute;
+  top: 4px;
+  color: #9b9b9b;
+}
+.header-2 {
+  display: flex;
+  /* border-left: 1px solid #444;
     display: block;
     font-size: 24px;
     height: 60px;
     padding: 0;
     width: 60px;
     text-decoration: none; */
-  }
-  .fa-desktop {
-    border-left: 1px solid #444;
-    display: block;
-    font-size: 24px;
-    height: 60px;
-    padding: 0;
-    width: 60px;
-    text-decoration: none;
-  }
-  .fa-tablet{
-    
-  }
-  nav ul {
-    list-style: none;
-    display: flex;
-    gap: 30px;
-  }
-  nav ul li {
-    display: inline-block;
-    font-size: larger;
-  }
-  .esssence-image{
+}
+.fa-desktop {
+  border-left: 1px solid #444;
+  display: block;
+  font-size: 24px;
+  height: 60px;
+  padding: 0;
+  width: 60px;
+  text-decoration: none;
+}
+.fa-tablet {
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+nav ul li {
+  display: inline-block;
+  font-size: larger;
+}
+.esssence-image {
+}
+.type-for-search {
+  border: none;
+  background-color: #ffffff;
+  width: 165px;
+  height: 85px;
+  padding: 0 22px 0 32px;
+  color: #787878;
+  font-size: 14px;
+  font-weight: 500;
+}
+.main-nav-div {
+  display: flex;
+  height: 85px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-div-2 {
+  display: flex;
+}
+.div-1 {
+  height: 85px;
+  width: 200px;
+  display: flex;
+  border-left: 1px solid #ebebeb;
+}
+.div {
+  height: 85px;
+  width: 90px;
+  border-left: 1px solid #ebebeb;
+}
+.nav-div-1 {
+  display: flex;
+  justify-content: center;
+}
+.background-image {
+  background-image: url(../essence/bg-1.jpg.webp);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+.asoss-h6 {
+  font-size: 18px;
+  color: #787878;
+  margin-bottom: 10px;
+}
+.new-collection {
+  font-size: 45px;
+  color: #000000;
+  line-height: 1.3;
+  font-weight: 700;
+  font-family: "Ubuntu", sans-serif;
+  margin-bottom: 50px;
+}
+.btn-viewcollection {
+  display: inline-block;
+  min-width: 170px;
+  height: 50px;
+  color: #ffffff;
+  border: none;
+  border-radius: 0;
+  padding: 0 40px;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 50px;
+  background-color: #0315ff;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+}
+.background-inner-div {
+  height: 600px;
+  width: 960px;
 
-  }
-  .type-for-search{
-    border: none;
-    background-color: #ffffff;
-    width: 200px;
-    height: 85px;
-    padding: 0 15px 0 60px;
-    color: #787878;
-    font-size: 14px;
-    font-weight: 500;
-  }
-  .main-nav-div{
-    display: flex;
-    height: 85px;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
+  flex-wrap: wrap;
 
-  }
-  .nav-div-2{
-    display: flex;
-  }
-  .div-1{
-    height: 85px;
-    width: 200px;
-    display: flex;
-    border-left: 1px solid #ebebeb;
-  }
-  .div{
-height: 85px;
-width: 90px;
-border-left: 1px solid #ebebeb;
-  }
-  .nav-div-1{
-    display: flex;
-    justify-content: center;
-  }
-  .background-image{
-    background-image: url(../essence/bg-1.jpg.webp);
-   
-    height: 600px;  
-  }
-  .asoss-h6{
-    font-size: 18px;
-    color: #787878;
-    margin-bottom: 10px;
-  }
-  .new-collection{
-    font-size: 45px;
-    color: #000000;
-    line-height: 1.3;
-    font-weight: 700;
-    font-family: "Ubuntu", sans-serif;
-    margin-bottom: 50px;
-  }
-  .btn-viewcollection{
-    display: inline-block;
-    min-width: 170px;
-    height: 50px;
-    color: #ffffff;
-    border: none;
-    border-radius: 0;
-    padding: 0 40px;
-    text-transform: uppercase;
-    font-size: 12px;
-    line-height: 50px;
-    background-color: #0315ff;
-    letter-spacing: 1.5px;
-    font-weight: 600;
-  }
-  .background-inner-div{
-    height: 600px;
-    width: 960px;
-    
-   
-    flex-wrap: wrap;
-    
-    margin-left: 50px;
-  }
-  .clothing-shoe-access{
-    display: flex;
-gap: 14px;
-  }
-  .section-padding{
-    padding-top: 80px;
-    padding-bottom: 80px;
-  }
-  .clothing{
-    background-image: url(../essence/bg-2.jpg.webp);
-    height:240px
-width:260px;  }
+  margin-left: 50px;
+}
+.clothing-shoe-access {
+  display: flex;
+  gap: 14px;
+}
+.section-padding {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.clothing {
+  background-image: url(../essence/bg-2.jpg.webp);
+  height: 240px;
+  width: 350px;
+}
+.shoe {
+  background-image: url(../essence/bg-3.jpg.webp);
+  height: 240px;
+  width: 350px;
+}
+.acces {
+  background-image: url(../essence/bg-4.jpg.webp);
+  height: 240px;
+  width: 350px;
+}
+.cover {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.clothing-shoe-access-font {
+  display: block;
+  font-size: 30px;
+  font-weight: 700;
+  color: #000000;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.background-image-pant-belt {
+  width: 1110px;
+  height: 550px;
+  background-image: url(../essence/bg-5.jpg.webp);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.buy-now-btn {
+  background-color: #0315ff;
+}
+.section-padding-hover {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.popular-products {
+}
+.sliding-image {
+  gap: 25px;
+  display: flex;
+}
+.brand-image-div {
+  display: flex;
+  gap: 40px;
+}
+.section-padding-brand {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.section-padding-footer {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #252525;
+}
